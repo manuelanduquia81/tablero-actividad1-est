@@ -73,6 +73,8 @@ Column {data-width=700 .tabset}
 
 ### Tiempos de carrera
 
+**ANÁLISIS:** Categoría abierta tuvieron los mejores tiempos de carrera y juvenil menor participación.
+
 ```{r}
 paleta6=c("#447270", "#6B9493", "#F6E271", "#F6B916", "#F69312", "#BC6C25")
 p1=ggplot(CarreraLuz22F, aes(y=timerun/60, x=categoria))+
@@ -89,6 +91,7 @@ p1=ggplot(CarreraLuz22F, aes(y=timerun/60, x=categoria))+
 p1
 
 ```
+
 
 ### Hombre por categorías
 
